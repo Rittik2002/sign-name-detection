@@ -10,4 +10,4 @@
 | 7             | Build and Train LSTM Neural Network                   |
 | 8             | Make Predictions                                      |
 | 9             | Save Weights                                          |
-|10             | Use saved weights in Streamlit                        |
+|10             | Load the pre-trained action recognition model         |
