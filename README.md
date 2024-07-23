@@ -11,3 +11,4 @@
 | 8             | Make Predictions                                      |
 | 9             | Save Weights                                          |
 |10             | Load the pre-trained action recognition model         |
+|11             | Create a Streamlit application                        |
