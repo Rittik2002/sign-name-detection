@@ -36,9 +36,9 @@ Before running the project, ensure you have the following installed:
 - NumPy
 
 You can install the required dependencies using the following command:
-'''
+```
 pip install opencv-python tensorflow mediapipe streamlit numpy
-'''
+```
 
 ## Model Training
 The model used for sign detection is pre-trained and saved as action.h5. To train a new model, you'll need a dataset of sign language gestures. The model uses sequences of 30 frames to predict actions, and it's trained using TensorFlow's Sequential API with LSTM layers.
@@ -60,15 +60,15 @@ The model used for sign detection is pre-trained and saved as action.h5. To trai
 
 ## Running the Project
 -- Clone this repository:
-'''
+```
 git clone https://github.com/yourusername/sign-language-detection.git
 cd sign-language-detection
-'''
+```
 -- Ensure that you have a webcam connected.
 -- Run the Streamlit application:
-'''
+```
 streamlit run app.py
-'''
+```
 -- Click the "Start Camera" button in the web interface to begin detection.
 
 
