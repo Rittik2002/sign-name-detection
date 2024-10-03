@@ -40,24 +40,25 @@ You can install the required dependencies using the following command:
 ```bash
 pip install opencv-python tensorflow mediapipe streamlit numpy
 
-**## Model Training**
+## Model Training
 The model used for sign detection is pre-trained and saved as action.h5. To train a new model, you'll need a dataset of sign language gestures. The model uses sequences of 30 frames to predict actions, and it's trained using TensorFlow's Sequential API with LSTM layers.
 
-**## Project Structure**
+## Project Structure
 -- app.py: Main Streamlit application file.
 -- action.h5: Pre-trained model for sign detection.
 -- utils.py: Utility functions for Mediapipe detection and visualization (if separated).
 -- README.md: Project documentation.
 
-**## Future Improvements**
+## Future Improvements
 -- Extend the sign language vocabulary by training the model on more actions.
 -- Improve the model's accuracy and response time.
 -- Incorporate different sign languages (e.g., ASL, BSL).
-**## References**
+
+## References
 -- Mediapipe Documentation
 -- TensorFlow Documentation
 
-**## Running the Project**
+## Running the Project
 -- Clone this repository:
 ```bash
 git clone https://github.com/yourusername/sign-language-detection.git
