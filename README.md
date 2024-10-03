@@ -2,21 +2,6 @@
 
 This project implements a real-time sign language detection system using TensorFlow, Mediapipe, and Streamlit. It detects three basic signs: "Hello," "Thanks," and "I Love You" using a webcam feed and provides real-time predictions with visualization.
 
-## Workflow
-| Serial Number | Workflow                                              |
-|---------------|-------------------------------------------------------|
-| 1             | Import and Install Dependencies                       |
-| 2             | Keypoints using MP Holistic                           |
-| 3             | Extract Keypoint Values                               |
-| 4             | Setup Folders for Collection                          |
-| 5             | Collect Keypoint Values for Training and Testing      |
-| 6             | Preprocess Data and Create Labels and Features        |
-| 7             | Build and Train LSTM Neural Network                   |
-| 8             | Make Predictions                                      |
-| 9             | Save Weights                                          |
-|10             | Load the pre-trained action recognition model         |
-|11             | Create a Streamlit application                        |
-
 ## Features
 - **Real-time Sign Detection**: Detects and classifies sign language gestures in real-time using a webcam.
 - **Mediapipe Integration**: Uses Mediapipe for hand, face, and pose landmark detection.
