@@ -46,7 +46,7 @@ The model used for sign detection is pre-trained and saved as action.h5. To trai
 ## Running the Project
 - Clone this repository:
 ```
-git clone https://github.com/yourusername/sign-language-detection.git
+git clone https://github.com/Rittik2002/sign-language-detection.git
 cd sign-language-detection
 ```
 - Ensure that you have a webcam connected.
